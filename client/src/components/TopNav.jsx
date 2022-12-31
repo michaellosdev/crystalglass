@@ -9,7 +9,7 @@ import Logo from '../assets/logo.png'
 function TopNav() {
   return (
     <>
-     <Navbar  expand="lg"  fixed='top'  className='shadow-lg p-3 mb-5 bg-white rounded'>
+     <Navbar  expand="lg"    className='shadow-lg p-3 bg-white rounded'>
       <Container className='container-fluid '>
                     <Navbar.Brand><img src={Logo} width='64px'/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

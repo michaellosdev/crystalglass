@@ -1,0 +1,21 @@
+@media only screen and (max-width: 420px) {
+    .layout-420px {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .padding-5px--420px {
+        padding: 5px!important;
+    }
+
+    .width-420px{
+        width: 100%!important;
+    }
+
+    .img-420px {
+        width: 80%;
+        height: 80%;
+    }
+}
