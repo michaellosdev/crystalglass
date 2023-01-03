@@ -69,7 +69,7 @@ useEffect(()=> {
         <TopNav />
         <div className='layout--styles hero--section' id='home'>
           <h1 >CRYSTAL GLASS GLAZING</h1>
-          <Button className='btn--global btn--hero'>CLICK ME</Button>
+          <Button className='btn--global btn--hero'><a href="tel:+18189668660">CONTACT US </a></Button> 
         </div>
         <div className='layout--styles about--container' >
           <div className='about-container--box'>
@@ -167,7 +167,9 @@ Get It Done By The best!</h2>
         <div className='layout--styles free-estimate--section'>
           <h2 >Contact us now for FREE ESTIMATION</h2>
           <p>Take advantage of our hassle-free, no-obligation estimates! Just call us now and we will discuss your project! </p>
-          <Button className='btn--global btn--estimate'>CONTACT US </Button>
+          
+          <Button className='btn--global btn--estimate'><a href="tel:+18189668660">CONTACT US </a></Button>
+          
         </div>
         <div className='reviews--section'>
           <h2 >What are customers are saying</h2>
