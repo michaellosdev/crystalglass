@@ -16,10 +16,10 @@ function TopNav() {
         <Navbar.Collapse id="basic-navbar-nav">
             <Container className='d-flex justify-content-center text-center ' >
             <Nav>
-                <Nav.Link className='mx-2 text-uppercase font-size-2'> <NavLink to="/">Home</NavLink></Nav.Link>
-                <Nav.Link className='mx-2 text-uppercase font-size-2'> <NavLink to="/portfolio">Portfolio</NavLink></Nav.Link>   
-                <Nav.Link className='mx-2 text-uppercase font-size-2'> <NavLink to="/services">Services</NavLink></Nav.Link>
-                <Nav.Link className='mx-2 text-uppercase font-size-2'> <NavLink to="/contact">Contact</NavLink></Nav.Link>
+                <Nav.Link className='mx-2 text-uppercase font-size-2' href='#home'> Home</Nav.Link>
+                <Nav.Link className='mx-2 text-uppercase font-size-2' href='#services'> Services</Nav.Link>
+                <Nav.Link className='mx-2 text-uppercase font-size-2' href='#portfolio'> Portfolio</Nav.Link>   
+                <Nav.Link className='mx-2 text-uppercase font-size-2' href='#contact'>Contact</Nav.Link>
             </Nav>
             </Container>
         </Navbar.Collapse>

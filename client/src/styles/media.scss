@@ -1,0 +1,268 @@
+@media only screen and (max-width: 460px) {
+    .layout-420px {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .layout--styles {
+        height: fit-content;
+    }
+
+    .padding-5px--420px {
+        padding: 5px!important;
+    }
+
+    .width-420px{
+        width: 100%!important;
+    }
+
+    .img-420px {
+        width: 80%;
+        height: 80%;
+    }
+
+    .hero--section {
+        height: 80vh;
+        
+        h1 {
+            font-size: 4rem;
+            text-align: center;
+        }
+
+        .btn--hero {
+            width: 80%;
+        }
+    }
+
+    .about--container {
+        flex-direction: column;
+        height: 100vh;
+        
+        h5 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+    
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+    
+        p {
+            font-size: 0.9rem;
+            margin: 0 10px 0 10px;
+        }
+    
+        .about-container--box {
+            width: 100%;
+        }
+    }
+
+
+
+    .our-services--section {
+        height: fit-content;
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 0.9rem;
+            text-align: center;
+            margin: 10px;
+        }
+
+        .our-services-cards--container {
+            flex-direction: column;
+
+            .service-card {
+                height: 80%;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+
+            .service-card--img {
+                height: 80%;
+            }
+
+        }
+
+    }
+
+    .why-choose-us--section {
+        height: fit-content;
+        justify-content: start;
+        padding: 50px 0 50px 0;
+
+        h2 {
+            margin-bottom: 50px;
+        }
+
+       .icons--container {
+        width: 100%;
+        height: 900px;
+    
+       }
+
+        .why-choose-us--icons-section {
+            flex-wrap: wrap;
+            width: 90%;
+        }
+
+        .icon-box {
+            width: 50%;
+            height: 50%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 1%;
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        .icon {
+            width: 50%;
+            margin-bottom: 10px;
+        }
+
+        .icon-box-1, 
+        .icon-box-2,
+        .icon-box-3, 
+        .icon-box-4,
+        .icon-box-5,
+        .icon-box-6 {
+            border-bottom: 3px solid white;
+        }
+
+        .icon-box-2,
+        .icon-box-6 {
+            border-right: none;
+        }
+
+        .icon-box-1, 
+        .icon-box-3, 
+        .icon-box-5,
+        .icon-box-7 {
+            border-right: 3px solid white;
+        }
+
+    }
+
+    .our-latest-work--section {
+        height: fit-content;
+        padding: 1%;
+        padding: 50px 0 50px 0;
+
+        h2{
+            margin-bottom: 40px;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+    }
+
+    .portfolio-pics--container {
+        margin-bottom: 40px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .img--container {
+            width: 90%;
+            height: 300px;
+
+        }
+
+    }
+
+
+    .free-estimate--section {
+        height: 1000px;
+        text-align: center;
+
+        h2 {
+            font-size: 3rem;
+        }
+
+        .btn--estimate {
+            width: 90%;
+        }
+    }
+
+    .reviews--section {
+        height: fit-content;
+        padding: 50px 0 50px 0;
+
+        h2 {
+            font-size: 2rem;
+            text-align: center;
+            text-transform:uppercase;
+        }
+
+        .review-cards--container {
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .review-card {
+            width: 100%;
+            height: 400px;
+            margin-bottom: 50px;
+            padding: 10%;
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            p {
+                font-size: 0.9rem;
+            }
+        }
+    }
+
+    .email--section {
+        height: fit-content;
+        padding: 50px 0 50px 0;
+
+    .email-card {
+
+        padding: 25px 10px;
+
+        .input--box {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            
+            
+            .input {
+                width: 100%;
+            }
+            
+        }
+
+        .btn--email-card {
+            width: 90%;
+        }
+    }
+
+
+
+    }
+
+    .footer {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+
+}

@@ -1,21 +1,257 @@
-@media only screen and (max-width: 420px) {
-    .layout-420px {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    .padding-5px--420px {
-        padding: 5px!important;
-    }
-
-    .width-420px{
-        width: 100%!important;
-    }
-
-    .img-420px {
-        width: 80%;
-        height: 80%;
-    }
+@media only screen and (max-width: 460px) {
+  .layout-420px {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .layout--styles {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .padding-5px--420px {
+    padding: 5px !important;
+  }
+  .width-420px {
+    width: 100% !important;
+  }
+  .img-420px {
+    width: 80%;
+    height: 80%;
+  }
+  .hero--section {
+    height: 80vh;
+  }
+  .hero--section h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+  .hero--section .btn--hero {
+    width: 80%;
+  }
+  .about--container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+  }
+  .about--container h5 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  .about--container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .about--container p {
+    font-size: 0.9rem;
+    margin: 0 10px 0 10px;
+  }
+  .about--container .about-container--box {
+    width: 100%;
+  }
+  .our-services--section {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .our-services--section h2 {
+    font-size: 2rem;
+  }
+  .our-services--section p {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 10px;
+  }
+  .our-services--section .our-services-cards--container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .our-services--section .our-services-cards--container .service-card {
+    height: 80%;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .our-services--section .our-services-cards--container .service-card--img {
+    height: 80%;
+  }
+  .why-choose-us--section {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    padding: 50px 0 50px 0;
+  }
+  .why-choose-us--section h2 {
+    margin-bottom: 50px;
+  }
+  .why-choose-us--section .icons--container {
+    width: 100%;
+    height: 900px;
+  }
+  .why-choose-us--section .why-choose-us--icons-section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 90%;
+  }
+  .why-choose-us--section .icon-box {
+    width: 50%;
+    height: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 1%;
+  }
+  .why-choose-us--section p {
+    font-size: 1rem;
+  }
+  .why-choose-us--section .icon {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .why-choose-us--section .icon-box-1,
+  .why-choose-us--section .icon-box-2,
+  .why-choose-us--section .icon-box-3,
+  .why-choose-us--section .icon-box-4,
+  .why-choose-us--section .icon-box-5,
+  .why-choose-us--section .icon-box-6 {
+    border-bottom: 3px solid white;
+  }
+  .why-choose-us--section .icon-box-2,
+  .why-choose-us--section .icon-box-6 {
+    border-right: none;
+  }
+  .why-choose-us--section .icon-box-1,
+  .why-choose-us--section .icon-box-3,
+  .why-choose-us--section .icon-box-5,
+  .why-choose-us--section .icon-box-7 {
+    border-right: 3px solid white;
+  }
+  .our-latest-work--section {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 1%;
+    padding: 50px 0 50px 0;
+  }
+  .our-latest-work--section h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  .portfolio-pics--container {
+    margin-bottom: 40px;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .portfolio-pics--container .img--container {
+    width: 90%;
+    height: 300px;
+  }
+  .free-estimate--section {
+    height: 1000px;
+    text-align: center;
+  }
+  .free-estimate--section h2 {
+    font-size: 3rem;
+  }
+  .free-estimate--section .btn--estimate {
+    width: 90%;
+  }
+  .reviews--section {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 50px 0 50px 0;
+  }
+  .reviews--section h2 {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .reviews--section .review-cards--container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .reviews--section .review-card {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+    padding: 10%;
+  }
+  .reviews--section .review-card h3 {
+    font-size: 1.2rem;
+  }
+  .reviews--section .review-card p {
+    font-size: 0.9rem;
+  }
+  .email--section {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 50px 0 50px 0;
+  }
+  .email--section .email-card {
+    padding: 25px 10px;
+  }
+  .email--section .email-card .input--box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .email--section .email-card .input--box .input {
+    width: 100%;
+  }
+  .email--section .email-card .btn--email-card {
+    width: 90%;
+  }
+  .footer {
+    margin-top: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
 }
+/*# sourceMappingURL=media.css.map */
