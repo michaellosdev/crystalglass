@@ -8,9 +8,6 @@ import ShowerDoorPhoto from '../assets/shower_door.jpg'
 import StairsPhoto from '../assets/Latest_work/Stairs_1.jpg'
 import MirrorPhoto from '../assets/mirror.jpg'
 import FloatingStairsPhoto from '../assets/glass_stairs.jpg'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Container from 'react-bootstrap/esm/Container'
 //icons inport 
 import StarIcon from '../assets/star.png'
 import AdviceIcon from '../assets/icons/advise.png'
@@ -22,8 +19,8 @@ import MoneyBackIcon from '../assets/icons/money back.png'
 import MoneyIcon from '../assets/icons/money.png'
 import VacuumIcon from '../assets/icons/vacuum.png'
 import sanityClient from '../client.js'
-import BlockContent from "@sanity/block-content-to-react";
 import imageUrlBuilder from "@sanity/image-url";
+import railing from '../assets/railing.jpg'
 
 const builder = imageUrlBuilder(sanityClient);
 const urlFor = (source) => builder.image(source);
@@ -96,7 +93,7 @@ Get It Done By The best!</h2>
               <h3 className='service-card--text'>SHOWER DOORS</h3>
             </div>
             <div className='service-card'>
-              <img src={StairsPhoto} className='service-card--img'/>
+              <img src={railing} className='service-card--img'/>
               <h3 className='service-card--text'>GLASS RAILING</h3>
             </div>
             <div className='service-card'>
